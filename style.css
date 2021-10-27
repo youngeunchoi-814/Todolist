@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f7f1f1;
+  height: 100%;
+}
+
+.todo {
+  text-align: center;
+  margin: 7rem auto;
+  padding: 30px 50px;
+  max-width: 500px;
+  height: 500px;
+  background-color: #88c7da;
+}
+
+.todo h1 {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.todo #todo-form input {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  font-style: italic;
+}
