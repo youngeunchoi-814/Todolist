@@ -2,26 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
+}
+
+button {
+  border: 0;
+  background: none;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f7f1f1;
   height: 100%;
 }
 
 .todo {
   text-align: center;
   margin: 7rem auto;
-  padding: 30px 50px;
+  padding: 30px 30px;
   max-width: 500px;
-  height: 500px;
+  height: 450px;
   background-color: #88c7da;
 }
 
 .todo h1 {
   color: white;
-  border-bottom: 2px solid white;
+}
+
+.todo h2 {
+  margin-left: -350px;
+  font-size: 16px;
+  color: grey;
+}
+
+.todo #todo-form {
+  margin-top: 7px;
+  border-top: 3px solid white;
 }
 
 .todo #todo-form input {
@@ -29,4 +44,23 @@ body {
   margin-top: 20px;
   font-size: 13px;
   font-style: italic;
+}
+
+ul {
+  margin-top: 10px;
+  color: white;
+  text-align: left;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trash-btn {
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  text-align: right;
 }
